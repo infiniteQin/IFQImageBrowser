@@ -1,0 +1,14 @@
+use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'
+source 'http://git.2dfire-inc.com/ios/cocoapods-spec.git'
+
+target 'IFQImageBrowser_Example' do
+
+  pod 'IFQImageBrowser/Base', :path => '../'
+  pod 'SDWebImage', '~>3.8.2'
+
+  target 'IFQImageBrowser_Tests' do
+    inherit! :search_paths
+
+  end
+end
