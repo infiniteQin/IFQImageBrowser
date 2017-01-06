@@ -22,7 +22,7 @@ pod "IFQImageBrowser"
 
 ## Author
 
-lingyou, lingyou@2dfire.com
+infiniteQin, whcwylp@163.co
 
 ## License
 
