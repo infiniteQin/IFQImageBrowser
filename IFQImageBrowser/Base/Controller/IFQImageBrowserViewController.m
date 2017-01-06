@@ -106,7 +106,7 @@ static NSString * const kIFQZoomImageCellIdentify = @"IFQZoomImageCell";
                                                                         attribute:NSLayoutAttributeHeight
                                                                         relatedBy:NSLayoutRelationEqual
                                                                            toItem:nil
-                                                                        attribute:nil
+                                                                        attribute:NSLayoutAttributeNotAnAttribute
                                                                        multiplier:1.0
                                                                          constant:64 ];
     [self.view addConstraints:@[topConstraint,leftConstraint,rightConstraint,heightConstraint]];
@@ -170,7 +170,7 @@ static NSString * const kIFQZoomImageCellIdentify = @"IFQZoomImageCell";
 }
 
 #pragma mark UICollectionView Delegate
-- (void)collectionView:(UICollectionView *)collectionView willDisplayCell:(UICollectionViewCell *)cell forItemAtIndexPath:(NSIndexPath *)indexPath {
+- (void)collectionView:(UICollectionView *)collectionView willDisplayCell:(__kindof UICollectionViewCell *)cell forItemAtIndexPath:(NSIndexPath *)indexPath {
     IFQZoomImageCell *zoomImageCell = cell;
     [zoomImageCell setScale:1];
 }

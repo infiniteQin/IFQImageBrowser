@@ -7,7 +7,7 @@
 //
 
 #import "IFQViewController.h"
-#import <IFQImageBrowser/IFQImageBrowser.h>
+#import <IFQImageBrowser/IFQImageBrowserViewController.h>
 #import "IFQCustomWebImageLoader.h"
 
 @interface IFQViewController ()
