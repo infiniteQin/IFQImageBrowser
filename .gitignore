@@ -1,0 +1,72 @@
+Example/Podfile.lock
+Example/Pods/Manifest.lock
+Example/Pods/Local Podspecs/IFQImageBrowser.podspec.json
+Example/Pods/Pods.xcodeproj/project.pbxproj
+Example/Pods/Pods.xcodeproj/xcuserdata/infiq.xcuserdatad/xcschemes/IFQImageBrowser.xcscheme
+Example/Pods/Pods.xcodeproj/xcuserdata/infiq.xcuserdatad/xcschemes/Pods-IFQImageBrowser_Example.xcscheme
+Example/Pods/Pods.xcodeproj/xcuserdata/infiq.xcuserdatad/xcschemes/Pods-IFQImageBrowser_Tests.xcscheme
+Example/Pods/Pods.xcodeproj/xcuserdata/infiq.xcuserdatad/xcschemes/SDWebImage.xcscheme
+Example/Pods/Pods.xcodeproj/xcuserdata/infiq.xcuserdatad/xcschemes/xcschememanagement.plist
+Example/Pods/SDWebImage/LICENSE
+Example/Pods/SDWebImage/README.md
+Example/Pods/SDWebImage/SDWebImage/NSData+ImageContentType.h
+Example/Pods/SDWebImage/SDWebImage/NSData+ImageContentType.m
+Example/Pods/SDWebImage/SDWebImage/SDImageCache.h
+Example/Pods/SDWebImage/SDWebImage/SDImageCache.m
+Example/Pods/SDWebImage/SDWebImage/SDWebImageCompat.h
+Example/Pods/SDWebImage/SDWebImage/SDWebImageCompat.m
+Example/Pods/SDWebImage/SDWebImage/SDWebImageDecoder.h
+Example/Pods/SDWebImage/SDWebImage/SDWebImageDecoder.m
+Example/Pods/SDWebImage/SDWebImage/SDWebImageDownloader.h
+Example/Pods/SDWebImage/SDWebImage/SDWebImageDownloader.m
+Example/Pods/SDWebImage/SDWebImage/SDWebImageDownloaderOperation.h
+Example/Pods/SDWebImage/SDWebImage/SDWebImageDownloaderOperation.m
+Example/Pods/SDWebImage/SDWebImage/SDWebImageManager.h
+Example/Pods/SDWebImage/SDWebImage/SDWebImageManager.m
+Example/Pods/SDWebImage/SDWebImage/SDWebImageOperation.h
+Example/Pods/SDWebImage/SDWebImage/SDWebImagePrefetcher.h
+Example/Pods/SDWebImage/SDWebImage/SDWebImagePrefetcher.m
+Example/Pods/SDWebImage/SDWebImage/UIButton+WebCache.h
+Example/Pods/SDWebImage/SDWebImage/UIButton+WebCache.m
+Example/Pods/SDWebImage/SDWebImage/UIImage+GIF.h
+Example/Pods/SDWebImage/SDWebImage/UIImage+GIF.m
+Example/Pods/SDWebImage/SDWebImage/UIImage+MultiFormat.h
+Example/Pods/SDWebImage/SDWebImage/UIImage+MultiFormat.m
+Example/Pods/SDWebImage/SDWebImage/UIImageView+HighlightedWebCache.h
+Example/Pods/SDWebImage/SDWebImage/UIImageView+HighlightedWebCache.m
+Example/Pods/SDWebImage/SDWebImage/UIImageView+WebCache.h
+Example/Pods/SDWebImage/SDWebImage/UIImageView+WebCache.m
+Example/Pods/SDWebImage/SDWebImage/UIView+WebCacheOperation.h
+Example/Pods/SDWebImage/SDWebImage/UIView+WebCacheOperation.m
+Example/Pods/Target Support Files/IFQImageBrowser/IFQImageBrowser-dummy.m
+Example/Pods/Target Support Files/IFQImageBrowser/IFQImageBrowser-prefix.pch
+Example/Pods/Target Support Files/IFQImageBrowser/IFQImageBrowser-umbrella.h
+Example/Pods/Target Support Files/IFQImageBrowser/IFQImageBrowser.modulemap
+Example/Pods/Target Support Files/IFQImageBrowser/IFQImageBrowser.xcconfig
+Example/Pods/Target Support Files/IFQImageBrowser/Info.plist
+Example/Pods/Target Support Files/Pods-IFQImageBrowser_Example/Info.plist
+Example/Pods/Target Support Files/Pods-IFQImageBrowser_Example/Pods-IFQImageBrowser_Example-acknowledgements.markdown
+Example/Pods/Target Support Files/Pods-IFQImageBrowser_Example/Pods-IFQImageBrowser_Example-acknowledgements.plist
+Example/Pods/Target Support Files/Pods-IFQImageBrowser_Example/Pods-IFQImageBrowser_Example-dummy.m
+Example/Pods/Target Support Files/Pods-IFQImageBrowser_Example/Pods-IFQImageBrowser_Example-frameworks.sh
+Example/Pods/Target Support Files/Pods-IFQImageBrowser_Example/Pods-IFQImageBrowser_Example-resources.sh
+Example/Pods/Target Support Files/Pods-IFQImageBrowser_Example/Pods-IFQImageBrowser_Example-umbrella.h
+Example/Pods/Target Support Files/Pods-IFQImageBrowser_Example/Pods-IFQImageBrowser_Example.debug.xcconfig
+Example/Pods/Target Support Files/Pods-IFQImageBrowser_Example/Pods-IFQImageBrowser_Example.modulemap
+Example/Pods/Target Support Files/Pods-IFQImageBrowser_Example/Pods-IFQImageBrowser_Example.release.xcconfig
+Example/Pods/Target Support Files/Pods-IFQImageBrowser_Tests/Info.plist
+Example/Pods/Target Support Files/Pods-IFQImageBrowser_Tests/Pods-IFQImageBrowser_Tests-acknowledgements.markdown
+Example/Pods/Target Support Files/Pods-IFQImageBrowser_Tests/Pods-IFQImageBrowser_Tests-acknowledgements.plist
+Example/Pods/Target Support Files/Pods-IFQImageBrowser_Tests/Pods-IFQImageBrowser_Tests-dummy.m
+Example/Pods/Target Support Files/Pods-IFQImageBrowser_Tests/Pods-IFQImageBrowser_Tests-frameworks.sh
+Example/Pods/Target Support Files/Pods-IFQImageBrowser_Tests/Pods-IFQImageBrowser_Tests-resources.sh
+Example/Pods/Target Support Files/Pods-IFQImageBrowser_Tests/Pods-IFQImageBrowser_Tests-umbrella.h
+Example/Pods/Target Support Files/Pods-IFQImageBrowser_Tests/Pods-IFQImageBrowser_Tests.debug.xcconfig
+Example/Pods/Target Support Files/Pods-IFQImageBrowser_Tests/Pods-IFQImageBrowser_Tests.modulemap
+Example/Pods/Target Support Files/Pods-IFQImageBrowser_Tests/Pods-IFQImageBrowser_Tests.release.xcconfig
+Example/Pods/Target Support Files/SDWebImage/Info.plist
+Example/Pods/Target Support Files/SDWebImage/SDWebImage-dummy.m
+Example/Pods/Target Support Files/SDWebImage/SDWebImage-prefix.pch
+Example/Pods/Target Support Files/SDWebImage/SDWebImage-umbrella.h
+Example/Pods/Target Support Files/SDWebImage/SDWebImage.modulemap
+Example/Pods/Target Support Files/SDWebImage/SDWebImage.xcconfig
