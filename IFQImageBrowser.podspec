@@ -43,12 +43,15 @@ Pod::Spec.new do |s|
   s.default_subspec = 'All'
 
   s.subspec 'All' do |ss|
+    ss.dependency 'IFQImageBrowser/WithoutImageLoader'
+    ss.dependency 'IFQImageBrowser/WebImageLoader'
+  end
+
+  s.subspec 'WithoutImageLoader' do |ss|
     ss.dependency 'IFQImageBrowser/Base'
     ss.dependency 'IFQImageBrowser/TitleBar'
-    ss.dependency 'IFQImageBrowser/WebImageLoader'
     ss.source_files = 'IFQImageBrowser/*.{h,m}'
     ss.public_header_files = 'IFQImageBrowser/*.{h}'
-
   end
 
   s.subspec 'Base' do |ss|

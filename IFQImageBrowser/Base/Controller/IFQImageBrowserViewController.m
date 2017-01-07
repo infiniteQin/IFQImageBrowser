@@ -38,8 +38,8 @@ static NSString * const kIFQZoomImageCellIdentify = @"IFQZoomImageCell";
 }
 
 - (void)configUI {
-    self.automaticallyAdjustsScrollViewInsets = NO;
-    self.extendedLayoutIncludesOpaqueBars = YES;
+//    self.automaticallyAdjustsScrollViewInsets = NO;
+//    self.extendedLayoutIncludesOpaqueBars = YES;
 
     [self configCollectionView];
     [self configTitleBar];
@@ -49,28 +49,28 @@ static NSString * const kIFQZoomImageCellIdentify = @"IFQZoomImageCell";
     self.collectionView.translatesAutoresizingMaskIntoConstraints = NO;
     [self.view addSubview:self.collectionView];
     NSLayoutConstraint *topConstraint = [NSLayoutConstraint constraintWithItem:self.collectionView
-                                                                     attribute:NSLayoutAttributeTopMargin
+                                                                     attribute:NSLayoutAttributeTop
                                                                      relatedBy:NSLayoutRelationEqual
                                                                         toItem:self.view
                                                                      attribute:NSLayoutAttributeTop
                                                                     multiplier:1.0
                                                                       constant:0];
     NSLayoutConstraint *leftConstraint = [NSLayoutConstraint constraintWithItem:self.collectionView
-                                                                      attribute:NSLayoutAttributeLeftMargin
+                                                                      attribute:NSLayoutAttributeLeft
                                                                       relatedBy:NSLayoutRelationEqual
                                                                          toItem:self.view
                                                                       attribute:NSLayoutAttributeLeft
                                                                      multiplier:1.0
                                                                        constant:0];
     NSLayoutConstraint *rightConstraint = [NSLayoutConstraint constraintWithItem:self.collectionView
-                                                                       attribute:NSLayoutAttributeRightMargin
+                                                                       attribute:NSLayoutAttributeRight
                                                                        relatedBy:NSLayoutRelationEqual
                                                                           toItem:self.view
                                                                        attribute:NSLayoutAttributeRight
                                                                       multiplier:1.0
                                                                         constant:0];
     NSLayoutConstraint *bottomConstraint = [NSLayoutConstraint constraintWithItem:self.collectionView
-                                                                        attribute:NSLayoutAttributeBottomMargin
+                                                                        attribute:NSLayoutAttributeBottom
                                                                         relatedBy:NSLayoutRelationEqual
                                                                            toItem:self.view
                                                                         attribute:NSLayoutAttributeBottom
@@ -86,14 +86,14 @@ static NSString * const kIFQZoomImageCellIdentify = @"IFQZoomImageCell";
     [self.view addSubview:self.titleBar];
     self.titleBar.translatesAutoresizingMaskIntoConstraints = NO;
     NSLayoutConstraint *topConstraint = [NSLayoutConstraint constraintWithItem:self.titleBar
-                                                                     attribute:NSLayoutAttributeTopMargin
+                                                                     attribute:NSLayoutAttributeTop
                                                                      relatedBy:NSLayoutRelationEqual
                                                                         toItem:self.view
                                                                      attribute:NSLayoutAttributeTop
                                                                     multiplier:1.0
                                                                       constant:0];
     NSLayoutConstraint *leftConstraint = [NSLayoutConstraint constraintWithItem:self.titleBar
-                                                                      attribute:NSLayoutAttributeLeftMargin
+                                                                      attribute:NSLayoutAttributeLeft
                                                                       relatedBy:NSLayoutRelationEqual
                                                                          toItem:self.view
                                                                       attribute:NSLayoutAttributeLeft
@@ -218,7 +218,6 @@ static NSString * const kIFQZoomImageCellIdentify = @"IFQZoomImageCell";
         self.titleBar.titleLabel.text = title;
     }else {
         self.titleBar.titleLabel.text = nil;
-
     }
     #endif
 
@@ -230,6 +229,7 @@ static NSString * const kIFQZoomImageCellIdentify = @"IFQZoomImageCell";
         UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc] init];
         layout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
         _collectionView = [[UICollectionView alloc] initWithFrame:self.view.bounds collectionViewLayout:layout];
+
         layout.sectionInset = UIEdgeInsetsZero;
         layout.minimumLineSpacing = 0;
         layout.minimumInteritemSpacing = 0;
