@@ -74,7 +74,7 @@
     imageBrowserVC.images = @[@"http://pic44.nipic.com/20140717/12432466_121957328000_2.jpg",
                               @"http://pic44.nipic.com/20140717/12432466_121957328000_2.jpg",
                               @"http://pic44.nipic.com/20140717/12432466_121957328000_2.jpg"];
-    imageBrowserVC.webImageLoader =  [IFQCustomWebImageLoader sharedInstance];
+//    imageBrowserVC.webImageLoader =  [IFQCustomWebImageLoader sharedInstance];
     [self presentViewController:imageBrowserVC animated:YES completion:NULL];
 }
 

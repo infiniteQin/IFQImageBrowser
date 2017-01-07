@@ -45,8 +45,10 @@ Pod::Spec.new do |s|
   s.subspec 'All' do |ss|
     ss.dependency 'IFQImageBrowser/Base'
     ss.dependency 'IFQImageBrowser/TitleBar'
+    ss.dependency 'IFQImageBrowser/WebImageLoader'
     ss.source_files = 'IFQImageBrowser/*.{h,m}'
     ss.public_header_files = 'IFQImageBrowser/*.{h}'
+
   end
 
   s.subspec 'Base' do |ss|
@@ -59,6 +61,14 @@ Pod::Spec.new do |s|
     ss.source_files   = 'IFQImageBrowser/TitleBar/*.{h,m}','IFQImageBrowser/TitleBar/**/*.{h,m}'
     ss.private_header_files = 'IFQImageBrowser/TitleBar/**/*.{h}'
     ss.pod_target_xcconfig = { 'GCC_PREPROCESSOR_DEFINITIONS' => 'SHOW_TITLE_BAR=1'}
+  end
+
+  s.subspec 'WebImageLoader' do |ss|
+    ss.dependency 'SDWebImage'
+    ss.dependency 'IFQImageBrowser/Base'
+    ss.source_files   = 'IFQImageBrowser/WebImgLoader/*.{h,m}','IFQImageBrowser/WebImgLoader/**/*.{h,m}'
+    ss.private_header_files = 'IFQImageBrowser/WebImgLoader/**/*.{h}'
+    ss.pod_target_xcconfig = { 'GCC_PREPROCESSOR_DEFINITIONS' => 'IFQ_WEB_IMG_LOADER=1'}
   end
 
 end

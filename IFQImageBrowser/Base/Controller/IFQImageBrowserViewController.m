@@ -13,6 +13,10 @@
 #import "IFQTitleBar.h"
 #endif
 
+#ifdef IFQ_WEB_IMG_LOADER
+#import "IFQWebImageLoader.h"
+#endif
+
 static NSString * const kIFQZoomImageCellIdentify = @"IFQZoomImageCell";
 
 @interface IFQImageBrowserViewController ()<UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout,UIScrollViewDelegate>
@@ -42,7 +46,7 @@ static NSString * const kIFQZoomImageCellIdentify = @"IFQZoomImageCell";
 }
 
 - (void)configCollectionView {
-
+    self.collectionView.translatesAutoresizingMaskIntoConstraints = NO;
     [self.view addSubview:self.collectionView];
     NSLayoutConstraint *topConstraint = [NSLayoutConstraint constraintWithItem:self.collectionView
                                                                      attribute:NSLayoutAttributeTopMargin
@@ -247,5 +251,16 @@ static NSString * const kIFQZoomImageCellIdentify = @"IFQZoomImageCell";
     return _titleBar;
 }
 #endif
+
+
+- (id<IFQImageViewWebImageLoadProtocol>)webImageLoader {
+    #ifdef IFQ_WEB_IMG_LOADER
+    if (!_webImageLoader) {
+        _webImageLoader = [IFQWebImageLoader imageLoader];
+    }
+    #endif
+    return _webImageLoader;
+}
+
 
 @end

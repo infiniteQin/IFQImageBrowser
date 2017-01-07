@@ -5,7 +5,7 @@ source 'http://git.2dfire-inc.com/ios/cocoapods-spec.git'
 target 'IFQImageBrowser_Example' do
 
   pod 'IFQImageBrowser', :path => '../'
-  pod 'SDWebImage', '~>3.8.2'
+  pod 'SDWebImage'
 
   target 'IFQImageBrowser_Tests' do
     inherit! :search_paths
