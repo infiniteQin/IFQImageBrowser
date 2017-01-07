@@ -38,9 +38,6 @@ static NSString * const kIFQZoomImageCellIdentify = @"IFQZoomImageCell";
 }
 
 - (void)configUI {
-//    self.automaticallyAdjustsScrollViewInsets = NO;
-//    self.extendedLayoutIncludesOpaqueBars = YES;
-
     [self configCollectionView];
     [self configTitleBar];
 }
@@ -197,10 +194,7 @@ static NSString * const kIFQZoomImageCellIdentify = @"IFQZoomImageCell";
     return 0;
 }
 
-#pragma mark UIScroll
-//- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
-//}
-
+#pragma mark UIScrollViewDelegate
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
     NSUInteger tempIndex = self.currIndex;
     self.currIndex = (scrollView.contentOffset.x+CGRectGetWidth(scrollView.frame)/2)/CGRectGetWidth(scrollView.frame);

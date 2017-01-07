@@ -17,7 +17,6 @@
  */
 @property (nonatomic, strong) NSArray     *images;
 
-
 /**
  当前展示图片index
  */
@@ -25,7 +24,7 @@
 
 
 /**
- 网络图片加载器 - 用户可以自定义实现IFQImageViewWebImageLoadProtocol接口
+ 网络图片加载器 - 用户可以自定义实现IFQImageViewWebImageLoadProtocol接口 - WithoutImageLoader spec
  */
 @property (nonatomic, strong) id<IFQImageViewWebImageLoadProtocol> webImageLoader;
 

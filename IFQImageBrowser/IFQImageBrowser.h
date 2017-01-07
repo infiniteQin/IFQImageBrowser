@@ -12,7 +12,4 @@
 #import "IFQImageBrowserViewController.h"
 #import "IFQImageViewWebImageLoadProtocol.h"
 
-//#import <IFQImageBrowser/IFQImageBrowserViewController.h>
-
-
 #endif /* IFQImageBrowser_h */

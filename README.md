@@ -19,11 +19,18 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "IFQImageBrowser"
 ```
+Without ImageLoader default implementation by SDWebImage, add the following line to your Podfile:
+
+```ruby
+pod "IFQImageBrowser/WithoutImageLoader"
+```
 
 ## Author
 
-infiniteQin, whcwylp@163.co
+infiniteQin, whcwylp@163.com
 
 ## License
 
 IFQImageBrowser is available under the MIT license. See the LICENSE file for more info.
+
+
