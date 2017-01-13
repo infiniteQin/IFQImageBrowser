@@ -1,0 +1,6 @@
+framework module IFQImageBrowser {
+  umbrella header "IFQImageBrowser.h"
+
+  export *
+  module * { export * }
+}

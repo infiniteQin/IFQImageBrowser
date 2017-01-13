@@ -1,0 +1,1 @@
+../../../../../IFQImageBrowser/Base/View/IFQZoomImageView.h

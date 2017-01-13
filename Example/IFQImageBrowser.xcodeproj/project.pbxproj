@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5DF753133CB542A57FF83DFE /* Pods_IFQImageBrowser_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6DE53CDD6A207A60EAEF456 /* Pods_IFQImageBrowser_Example.framework */; };
+		0FF95F997116A8CA62EB9400 /* libPods-IFQImageBrowser_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A4F02E2051C046BBE5BC92F /* libPods-IFQImageBrowser_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -21,8 +21,8 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		83574647DFD8DF4C810D3131 /* Pods_IFQImageBrowser_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85F33C742DA54F40A51DDF60 /* Pods_IFQImageBrowser_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		AE8A973E6ED0521208B0016E /* libPods-IFQImageBrowser_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F25D99EF5E085B38B97A1D6 /* libPods-IFQImageBrowser_Tests.a */; };
 		B8A7F9E81E1E2F2900B3AA46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8A7F9E71E1E2F2900B3AA46 /* LaunchScreen.storyboard */; };
 		B8A7FA191E1E6E8600B3AA46 /* IFQCustomWebImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A7FA181E1E6E8600B3AA46 /* IFQCustomWebImageLoader.m */; };
 /* End PBXBuildFile section */
@@ -38,7 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F25D99EF5E085B38B97A1D6 /* libPods-IFQImageBrowser_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IFQImageBrowser_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10DD43A7122CA2A6D8D8178D /* IFQImageBrowser.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = IFQImageBrowser.podspec; path = ../IFQImageBrowser.podspec; sourceTree = "<group>"; };
+		1A4F02E2051C046BBE5BC92F /* libPods-IFQImageBrowser_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IFQImageBrowser_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32DBA4F1F25B84E33A85C617 /* Pods-IFQImageBrowser_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IFQImageBrowser_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-IFQImageBrowser_Example/Pods-IFQImageBrowser_Example.release.xcconfig"; sourceTree = "<group>"; };
 		34FA0A079EDC4F663307BE11 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* IFQImageBrowser_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IFQImageBrowser_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,7 +63,6 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		61D9AF8FADFA0476911806EE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		85F33C742DA54F40A51DDF60 /* Pods_IFQImageBrowser_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IFQImageBrowser_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		894C9E8402AEEC30D7CC48E2 /* Pods-IFQImageBrowser_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IFQImageBrowser_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IFQImageBrowser_Tests/Pods-IFQImageBrowser_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B8A7F9E71E1E2F2900B3AA46 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -69,7 +70,6 @@
 		B8A7FA171E1E6E8600B3AA46 /* IFQCustomWebImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFQCustomWebImageLoader.h; sourceTree = "<group>"; };
 		B8A7FA181E1E6E8600B3AA46 /* IFQCustomWebImageLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFQCustomWebImageLoader.m; sourceTree = "<group>"; };
 		D2A3CB5284283DEF9920C051 /* Pods-IFQImageBrowser_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IFQImageBrowser_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IFQImageBrowser_Example/Pods-IFQImageBrowser_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E6DE53CDD6A207A60EAEF456 /* Pods_IFQImageBrowser_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IFQImageBrowser_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD5EE7978ED6E252DADE6666 /* Pods-IFQImageBrowser_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IFQImageBrowser_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IFQImageBrowser_Tests/Pods-IFQImageBrowser_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,7 +81,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				5DF753133CB542A57FF83DFE /* Pods_IFQImageBrowser_Example.framework in Frameworks */,
+				0FF95F997116A8CA62EB9400 /* libPods-IFQImageBrowser_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +92,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				83574647DFD8DF4C810D3131 /* Pods_IFQImageBrowser_Tests.framework in Frameworks */,
+				AE8A973E6ED0521208B0016E /* libPods-IFQImageBrowser_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,8 +127,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				E6DE53CDD6A207A60EAEF456 /* Pods_IFQImageBrowser_Example.framework */,
-				85F33C742DA54F40A51DDF60 /* Pods_IFQImageBrowser_Tests.framework */,
+				1A4F02E2051C046BBE5BC92F /* libPods-IFQImageBrowser_Example.a */,
+				0F25D99EF5E085B38B97A1D6 /* libPods-IFQImageBrowser_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -270,7 +270,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = IFQ;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = lingyou;
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
@@ -475,14 +475,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -495,7 +500,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -515,20 +520,25 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -543,6 +553,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IFQImageBrowser/IFQImageBrowser-Prefix.pch";
 				INFOPLIST_FILE = "IFQImageBrowser/IFQImageBrowser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -558,6 +569,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IFQImageBrowser/IFQImageBrowser-Prefix.pch";
 				INFOPLIST_FILE = "IFQImageBrowser/IFQImageBrowser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
