@@ -57,8 +57,9 @@ platform :ios do
     version = version_bump_podspec(path:podspecFile)
     puts "======version===#{version}======="
     # version = version_get_podspec(path: podspecFile)
-    add_git_tag(tag: "#{version}")
+    
     git_commit(path:podspecFile, message: "fastlane podspec Version Bump Tag:#{version}")
+    add_git_tag(tag: "#{version}")
     # push_git_tags
     push_to_git_remote(tags: true);
 
