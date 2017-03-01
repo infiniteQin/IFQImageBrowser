@@ -7,6 +7,7 @@
 //
 
 #import "IFQWebImageLoader.h"
+#import <SDWebImage/UIView+WebCacheOperation.h>
 #import <SDWebImage/UIImageView+WebCache.h>
 
 @implementation IFQWebImageLoader
@@ -17,7 +18,7 @@
 }
 
 - (void)cancelCurrentImageLoad:(UIImageView*)imageView {
-    [imageView sd_cancelCurrentImageLoad];
+    [imageView sd_cancelImageLoadOperationWithKey:NSStringFromClass([UIImageView class])];
 }
 
 - (void)imageView:(UIImageView*)imageView loadWebImage:(NSString*)url placeholderImage:(UIImage*)image {
