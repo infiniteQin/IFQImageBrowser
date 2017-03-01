@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IFQImageBrowser'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'images browser'
 
 # This description is used to generate tags and improve search results.
@@ -47,7 +47,7 @@ Pod::Spec.new do |s|
   s.subspec 'All' do |ss|
     ss.dependency 'IFQImageBrowser/WebImageLoader'
   end
-
+  
   s.subspec 'Base' do |ss|
     ss.source_files = 'IFQImageBrowser/Base/*.{h,m}','IFQImageBrowser/Base/**/*.{h,m}','IFQImageBrowser/*.{h,m}'
     ss.public_header_files   =  'IFQImageBrowser/Base/Controller/*.{h}','IFQImageBrowser/Base/Protocol/*.{h}','IFQImageBrowser/*.{h}'
