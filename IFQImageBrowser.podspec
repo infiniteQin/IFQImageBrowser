@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IFQImageBrowser'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'images browser'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,9 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
+
     images browser support NSString|NSData|UIImage
+
                        DESC
 
   s.homepage         = 'https://github.com/infiniteQin/IFQImageBrowser'
@@ -43,20 +45,13 @@ Pod::Spec.new do |s|
   s.default_subspec = 'All'
 
   s.subspec 'All' do |ss|
-    ss.dependency 'IFQImageBrowser/WithoutImageLoader'
     ss.dependency 'IFQImageBrowser/WebImageLoader'
   end
 
-  s.subspec 'WithoutImageLoader' do |ss|
-    ss.dependency 'IFQImageBrowser/Base'
-    ss.dependency 'IFQImageBrowser/TitleBar'
-    ss.source_files = 'IFQImageBrowser/*.{h,m}'
-    ss.public_header_files = 'IFQImageBrowser/*.{h}'
-  end
-
   s.subspec 'Base' do |ss|
-    ss.source_files = 'IFQImageBrowser/Base/*.{h,m}','IFQImageBrowser/Base/**/*.{h,m}'
-    ss.public_header_files   =  'IFQImageBrowser/Base/Controller/*.{h}','IFQImageBrowser/Base/Protocol/*.{h}'
+    ss.source_files = 'IFQImageBrowser/Base/*.{h,m}','IFQImageBrowser/Base/**/*.{h,m}','IFQImageBrowser/*.{h,m}'
+    ss.public_header_files   =  'IFQImageBrowser/Base/Controller/*.{h}','IFQImageBrowser/Base/Protocol/*.{h}','IFQImageBrowser/*.{h}'
+
   end
 
   s.subspec 'TitleBar' do |ss|
@@ -64,6 +59,11 @@ Pod::Spec.new do |s|
     ss.source_files   = 'IFQImageBrowser/TitleBar/*.{h,m}','IFQImageBrowser/TitleBar/**/*.{h,m}'
     ss.private_header_files = 'IFQImageBrowser/TitleBar/**/*.{h}'
     ss.pod_target_xcconfig = { 'GCC_PREPROCESSOR_DEFINITIONS' => 'SHOW_TITLE_BAR=1'}
+  end
+
+  s.subspec 'WithoutImageLoader' do |ss|
+    ss.dependency 'IFQImageBrowser/Base'
+    ss.dependency 'IFQImageBrowser/TitleBar'
   end
 
   s.subspec 'WebImageLoader' do |ss|
