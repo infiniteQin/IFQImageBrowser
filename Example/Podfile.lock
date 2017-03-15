@@ -1,0 +1,28 @@
+PODS:
+  - IFQImageBrowser (0.1.2):
+    - IFQImageBrowser/All (= 0.1.2)
+  - IFQImageBrowser/All (0.1.2):
+    - IFQImageBrowser/WebImageLoader
+  - IFQImageBrowser/Base (0.1.2)
+  - IFQImageBrowser/WebImageLoader (0.1.2):
+    - IFQImageBrowser/Base
+    - SDWebImage
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+
+DEPENDENCIES:
+  - IFQImageBrowser (from `../`)
+  - SDWebImage
+
+EXTERNAL SOURCES:
+  IFQImageBrowser:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  IFQImageBrowser: ee626f583f06fe699e4ebd2835a17b8335c4c92e
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+
+PODFILE CHECKSUM: 9612617073a9527462347e418497b0e25b1fbd97
+
+COCOAPODS: 1.2.0
